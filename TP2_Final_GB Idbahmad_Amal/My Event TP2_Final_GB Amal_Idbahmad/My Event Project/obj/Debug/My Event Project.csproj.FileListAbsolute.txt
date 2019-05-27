@@ -1,0 +1,12 @@
+c:\users\win mac\documents\visual studio 2010\Projects\My Event Project\My Event Project\bin\My Event Project.dll
+c:\users\win mac\documents\visual studio 2010\Projects\My Event Project\My Event Project\bin\My Event Project.pdb
+c:\users\win mac\documents\visual studio 2010\Projects\My Event Project\My Event Project\obj\Debug\My Event Project.dll
+c:\users\win mac\documents\visual studio 2010\Projects\My Event Project\My Event Project\obj\Debug\My Event Project.pdb
+C:\Users\win mac\Desktop\My Event Project\My Event Project\bin\My Event Project.dll
+C:\Users\win mac\Desktop\My Event Project\My Event Project\bin\My Event Project.pdb
+C:\Users\win mac\Desktop\My Event Project\My Event Project\obj\Debug\My Event Project.dll
+C:\Users\win mac\Desktop\My Event Project\My Event Project\obj\Debug\My Event Project.pdb
+C:\Users\win mac\Desktop\TP2_Final_GB Idbahmad_Amal\My Event Project\My Event Project\bin\My Event Project.dll
+C:\Users\win mac\Desktop\TP2_Final_GB Idbahmad_Amal\My Event Project\My Event Project\bin\My Event Project.pdb
+C:\Users\win mac\Desktop\TP2_Final_GB Idbahmad_Amal\My Event Project\My Event Project\obj\Debug\My Event Project.dll
+C:\Users\win mac\Desktop\TP2_Final_GB Idbahmad_Amal\My Event Project\My Event Project\obj\Debug\My Event Project.pdb

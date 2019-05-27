@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyEvent.master.cs" Inherits="My_Event_Project.MyEvent" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>The Folklore Day</title>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/css.min.css" rel="stylesheet" type="text/css"/>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/Count.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="Home.aspx" style="color: #17a2b8;"><i>The Folklore Day</i></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button"data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #17a2b8;">Menu
+        <i class="fas fa-bars"></i>
+      </button>
+  </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger ml-1 mt-1" href="Inner.aspx" style="color: #17a2b8;"><i><b>Overview</b></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger ml-1 mt-1" href="#Features" style="color: #17a2b8;"><i><b>Features</b></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger ml-1 mt-1" href="#gallery" style="color: #17a2b8;"><i><b>Gallery</b></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger ml-1 mt-1" href="#team"style="color: #17a2b8;"><i><b>Team</b></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger ml-1 mt-1" href="#contact" style="color: #17a2b8;"><i><b>Contact</b></i></a>
+            </li>
+            <li class="nav-item">
+            	<a class="btn js-scroll-trigger text-light ml-1 mt-1" href="SignIn.aspx" style="background-color:#17a2b8;"><i><b>Sign in</b></i></a>
+            </li>
+            <li><a class="btn js-scroll-trigger text-light ml-1 mt-1" href="RegisterNow.aspx" style="background-color:#17a2b8;"><i><b>Register <br> Now</b></i></a></li>
+
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+</div>
+
+    
+    <header class="masthead">
+      <div class="container">
+		   <div class="intro-text">
+         <div class="intro-heading text-uppercase"style="color: #007bff;"><b>The Folklore Day</b> <br> <b>2019</b>
+          </div>
+          <a class="btn btn-xl text-light js-scroll-trigger" style="background-color:#17a2b8;" href="Inner.aspx">More info</a>
+          <a class="btn btn-xl text-light js-scroll-trigger" style="background-color:#17a2b8;" href="SignIn.aspx">Sign in</a> <br>
+          <br>
+          <br>
+          <hr>
+          <p id="parag" style="color: #007bff;  font-size: 30px;"><b>The Event</b> </p>
+             <div class="countd" style="font-size : 28px ;color: #007bff;">
+              <span id="days">00</span>
+              <b> Days </b>
+              <span id="hours">00</span>
+              <b> Hours </b>
+              <span id="minutes">00</span>
+              <b> Minutes </b>
+              <span id="seconds">00</span>
+              <b> Seconds </b>
+            </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+       <footer class="footer-content">
+        <div class="layer footer">
+            <div class="container-fluid">
+                <div class="row footer-top-inner">
+                    <div style="margin-top: 20px" class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">                
+                        <p class="my-3"><span style="color: #17a2b8;"> Folklore</span> Day Meeting in Marrakech "Palais du Congres"
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+                        <div class="footer-w3pvt">
+                            <h3 class="mb-3 w3pvt_title text-light" style="text-align: center;">Show Hours</h3>
+                            <hr>
+                            <ul class="list-info-w3pvt last-contact mt-lg-4">
+                                <li>
+                                  <p style="text-align: center;"> August 30, 2019 at 18.00 Pm - 00.00 Pm</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+                        <div class="footer-w3pvt">
+                            <h3 class="mb-3 w3pvt_title text-light" style="text-align: center;">Contact Us</h3>
+                            <hr>
+                            <div style="text-align: center;">
+                            <div class="last-contact">
+                                <p>
+                                    <span style="font-size: 15px;color: #17a2b8;">Folklore@gmail.com</span> </a>
+                                </p>
+                            </div>
+                            <div class="last-contact my-2">
+                                <p>+ 212 662334123</p>
+                            </div>
+                            <div class="last-contact">
+                                <p>Palais du Congres , Gueliz , Marrakech.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>     
+        </div>
+        <p class="copy-right-grids text-li text-center my-sm-4 my-4" style="color: #17a2b8;">&copy; 2019 Marrakech Folklore Day </p>
+    </footer>
+    </form>
+</body>
+</html>

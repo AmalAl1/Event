@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51CD8353-A916-406C-AB9A-63704541EF45}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>My_Event_Project</RootNamespace>
+    <AssemblyName>My Event Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\dist\js\bootstrap.js" />
+    <Content Include="bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\cs-skin-elastic.css" />
+    <Content Include="css\css.min.css" />
+    <Content Include="css\icon.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\util.css" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="font-awesome\css\font-awesome.css" />
+    <Content Include="font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Home.aspx" />
+    <Content Include="Image\1.jpg" />
+    <Content Include="Image\24.png" />
+    <Content Include="Image\2M.jpg" />
+    <Content Include="Image\5.jpg" />
+    <Content Include="Image\6.jpg" />
+    <Content Include="Image\7.jpg" />
+    <Content Include="Image\admin.png" />
+    <Content Include="Image\chada.jpg" />
+    <Content Include="Image\event.jpg" />
+    <Content Include="Image\F1.jpeg" />
+    <Content Include="Image\F2.jpg" />
+    <Content Include="Image\fb.png" />
+    <Content Include="Image\footer.jpeg" />
+    <Content Include="Image\header-bg.jpg" />
+    <Content Include="Image\hespress.jpg" />
+    <Content Include="Image\insta.jpg" />
+    <Content Include="Image\M1.jpg" />
+    <Content Include="Image\M2.png" />
+    <Content Include="Image\P1.jpg" />
+    <Content Include="Image\P2.jpg" />
+    <Content Include="Image\P3.jpg" />
+    <Content Include="Image\P4.jpg" />
+    <Content Include="Image\P5.jpg" />
+    <Content Include="Image\P6.jpg" />
+    <Content Include="Image\P7.jpg" />
+    <Content Include="Image\photo.jpg" />
+    <Content Include="Image\radio.png" />
+    <Content Include="Image\s.png" />
+    <Content Include="Image\slider1.jpg" />
+    <Content Include="Image\slider2.jpg" />
+    <Content Include="Image\slider3.jpg" />
+    <Content Include="Image\Sony.PNG" />
+    <Content Include="Image\tele.png" />
+    <Content Include="Inner.aspx" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Count.js" />
+    <Content Include="js\funct2.js" />
+    <Content Include="js\funct3.js" />
+    <Content Include="js\jquery-2.2.2.js" />
+    <Content Include="js\jquery.appear.js" />
+    <Content Include="js\jquery.knob.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="message.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="RegisterNow.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inner.aspx.cs">
+      <DependentUpon>Inner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inner.aspx.designer.cs">
+      <DependentUpon>Inner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="message.aspx.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message.aspx.designer.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyEvent.Master.cs">
+      <DependentUpon>MyEvent.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyEvent.Master.designer.cs">
+      <DependentUpon>MyEvent.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterNow.aspx.cs">
+      <DependentUpon>RegisterNow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterNow.aspx.designer.cs">
+      <DependentUpon>RegisterNow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="font-awesome\css\font-awesome.css.map" />
+    <None Include="font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="font-awesome\fonts\FontAwesome.otf" />
+    <None Include="font-awesome\less\animated.less" />
+    <None Include="font-awesome\less\bordered-pulled.less" />
+    <None Include="font-awesome\less\core.less" />
+    <None Include="font-awesome\less\fixed-width.less" />
+    <None Include="font-awesome\less\font-awesome.less" />
+    <None Include="font-awesome\less\icons.less" />
+    <None Include="font-awesome\less\larger.less" />
+    <None Include="font-awesome\less\list.less" />
+    <None Include="font-awesome\less\mixins.less" />
+    <None Include="font-awesome\less\path.less" />
+    <None Include="font-awesome\less\rotated-flipped.less" />
+    <None Include="font-awesome\less\screen-reader.less" />
+    <None Include="font-awesome\less\stacked.less" />
+    <None Include="font-awesome\less\variables.less" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <None Include="fonts\font-awesome-4.7.0\less\animated.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\core.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\icons.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\larger.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\list.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\mixins.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\path.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\stacked.less" />
+    <None Include="fonts\font-awesome-4.7.0\less\variables.less" />
+    <None Include="fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <None Include="fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="MyEvent.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55042</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
